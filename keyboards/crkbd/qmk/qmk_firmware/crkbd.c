@@ -15,7 +15,7 @@ static void oled_render_layer_state(void) {
             oled_write_ln_P(PSTR("Base"), false);
             break;
         case 1:
-            oled_write_ln_P(PSTR("Number & Navigation"), false);
+            oled_write_ln_P(PSTR("Num & Nav"), false);
             break;
         case 2:
             oled_write_ln_P(PSTR("Symbol"), false);
